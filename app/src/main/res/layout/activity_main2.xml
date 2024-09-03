@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#086575"
+    android:background="#98DAE6"
     tools:context=".MainActivity2">
 
     <LinearLayout
@@ -22,29 +22,49 @@
             android:inputType="text"
             android:textColorHint="@color/white" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/input"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="40dp"
-                android:text="Input"  />
 
 
-            <Button
-                android:id="@+id/kalkulator"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="4sp"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25pt"
+                android:orientation="vertical">
 
-                android:text="Kalkulator" />
+                <Button
+                    android:id="@+id/kalkulator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Kalkulator" />
 
-        </LinearLayout>
+                <Button
+                    android:id="@+id/input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Input" />
+
+                <Button
+                    android:id="@+id/Loginpage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Login page" />
+
+                <Button
+                    android:id="@+id/listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="List Hewan" />
+            </LinearLayout>
+
+
+
 
         <TextView
             android:layout_width="wrap_content"
